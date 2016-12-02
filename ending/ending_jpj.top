@@ -1,0 +1,12 @@
+topic: ~ending()
+language: jpj
+#〆のメッセージ
+u:(e:MiddleTactilTouched) \vct=140\ \emph=200\ これで、発表は、終わりだよっ？  $onStopped=1
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello

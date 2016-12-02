@@ -1,0 +1,13 @@
+topic: ~intro()
+language: jpj
+#最初に聴衆にあいさつして、人間の発表者にプレゼンをバトンタッチする
+u:(e:MiddleTactilTouched) \vct=140\ \emph=200\ こんにちはッ！。。ペッパーですよォ？。。。じゃあ、あとは。。人間さん。。。よろしくねっ？$onStopped=1
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello
